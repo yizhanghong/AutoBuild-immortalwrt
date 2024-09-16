@@ -14,11 +14,11 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
-#echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-#echo 'src-git innmonkey https://github.com/innmonkey/openwrt-packages' >>feeds.conf.default
-#echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-#echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
-#echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git innmonkey https://github.com/innmonkey/openwrt-packages' >>feeds.conf.default
+echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
+echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
+echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
