@@ -22,3 +22,6 @@
 #echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 #echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 #echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
+echo 'src-git 5gsupport https://github.com/Siriling/5G-Modem-Support.git;main' >> feeds.conf.default
+echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
+
