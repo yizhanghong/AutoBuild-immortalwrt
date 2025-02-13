@@ -28,7 +28,7 @@ echo "DISTRIB_REVISION='v$(date +'%Y.%m')'" >> /etc/openwrt_release
 sed -i '/DISTRIB_RELEASE/d' /etc/openwrt_release
 echo "DISTRIB_RELEASE='v$(date +'%Y.%m.%d')'" >> /etc/openwrt_release
 sed -i '/DISTRIB_DESCRIPTION/d' /etc/openwrt_release
-echo "DISTRIB_DESCRIPTION='Build by innmonkey '" >> /etc/openwrt_release
+echo "DISTRIB_DESCRIPTION='Build by yizhanghong '" >> /etc/openwrt_release
 
 sed -i 's/LuCI openwrt-23.05 branch/ImmortalWrt/g' /usr/lib/lua/luci/version.lua
 sed -i '/luciversion/d' /usr/lib/lua/luci/version.lua
