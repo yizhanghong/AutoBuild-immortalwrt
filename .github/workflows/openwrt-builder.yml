@@ -88,6 +88,9 @@ jobs:
     - name: 安装 feeds
       run: cd openwrt && ./scripts/feeds install -a
 
+    - name: 强制用tom modem驱动
+      run: cd openwrt && ./scripts/feeds install -a -f -p modem      
+
     - name: 加载自定义配置
       run: |
         [ -e files ] && mv files openwrt/files
