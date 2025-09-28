@@ -157,7 +157,7 @@ jobs:
       id: tag
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "release_tag=$(date +"%Y.%m.%d-%H.%M")" >> ${GITHUB_OUTPUT}
+        echo "release_tag=openfi6c-$(date +"%Y.%m.%d-%H.%M")" >> ${GITHUB_OUTPUT}
         touch release.txt
         echo "
         💻 架构: x86-64
@@ -168,7 +168,7 @@ jobs:
 
         ⏱️ 编译时间: $(date +"%Y年%m月%d日%H时%M分")
 
-        🌐 管理地址: 192.168.10.1
+        🌐 管理地址: 192.168.21.1
 
         👤 用户名: root
 
