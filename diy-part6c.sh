@@ -65,7 +65,7 @@ CONFIG_PACKAGE_luci-app-statistics=y
 #CONFIG_PACKAGE_luci-app-cpu-status=y 
 CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-passwall=y
-
+CONFIG_PACKAGE_rdisc6=y
 #
 # Configuration
 #
